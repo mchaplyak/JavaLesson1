@@ -81,41 +81,44 @@ public class Main {
         User user9 = new User(9, 26, "Nazar", "Beniv", 58.9, 170);
         User user10 = new User(10, 33, "Andriy", "Geryliv", 59.9, 169);
 
-        int agePlus = user1.age +
-                user2.age +
-                user3.age +
-                user4.age +
-                user5.age +
-                user6.age +
-                user7.age +
-                user8.age +
-                user9.age +
-                user10.age;
+        int agePlus =
+                user1.age +
+                        user2.age +
+                        user3.age +
+                        user4.age +
+                        user5.age +
+                        user6.age +
+                        user7.age +
+                        user8.age +
+                        user9.age +
+                        user10.age;
 
         System.out.println("AllUserAge: " + agePlus);
 
-        double weightPlus = user1.weight +
-                user2.weight +
-                user3.weight +
-                user4.weight +
-                user5.weight +
-                user6.weight +
-                user7.weight +
-                user8.weight +
-                user9.weight +
-                user10.weight;
+        double weightPlus =
+                user1.weight +
+                        user2.weight +
+                        user3.weight +
+                        user4.weight +
+                        user5.weight +
+                        user6.weight +
+                        user7.weight +
+                        user8.weight +
+                        user9.weight +
+                        user10.weight;
         System.out.println("AllUserWeight: " + weightPlus);
 
-        double heightPlus = user1.height +
-                user2.height +
-                user3.height +
-                user4.height +
-                user5.height +
-                user6.height +
-                user7.height +
-                user8.height +
-                user9.height +
-                user10.height;
+        double heightPlus =
+                user1.height +
+                        user2.height +
+                        user3.height +
+                        user4.height +
+                        user5.height +
+                        user6.height +
+                        user7.height +
+                        user8.height +
+                        user9.height +
+                        user10.height;
         System.out.println("AllUserHeight: " + heightPlus);
 
 
@@ -137,42 +140,45 @@ public class Main {
         users[8] = new User(9, 26, "Nazar", "Beniv", 58.9, 170);
         users[9] = new User(10, 33, "Andriy", "Geryliv", 59.9, 169);
 
-        int agePlusArray = users[0].age +
-                users[1].age +
-                users[2].age +
-                users[3].age +
-                users[4].age +
-                users[5].age +
-                users[6].age +
-                users[7].age +
-                users[8].age +
-                users[9].age;
+        int agePlusArray =
+                users[0].age +
+                        users[1].age +
+                        users[2].age +
+                        users[3].age +
+                        users[4].age +
+                        users[5].age +
+                        users[6].age +
+                        users[7].age +
+                        users[8].age +
+                        users[9].age;
 
         System.out.println("AllUserAgeInArray: " + agePlusArray);
 
-        double weightPlusArray = users[0].weight +
-                users[1].weight +
-                users[2].weight +
-                users[3].weight +
-                users[4].weight +
-                users[5].weight +
-                users[6].weight +
-                users[7].weight +
-                users[8].weight +
-                users[9].weight;
+        double weightPlusArray =
+                users[0].weight +
+                        users[1].weight +
+                        users[2].weight +
+                        users[3].weight +
+                        users[4].weight +
+                        users[5].weight +
+                        users[6].weight +
+                        users[7].weight +
+                        users[8].weight +
+                        users[9].weight;
 
         System.out.println("AllUserWeightInArray: " + weightPlusArray);
 
-        double heightPlusArray = users[0].height +
-                users[1].height +
-                users[2].height +
-                users[3].height +
-                users[4].height +
-                users[5].height +
-                users[6].height +
-                users[7].height +
-                users[8].height +
-                users[9].height;
+        double heightPlusArray =
+                users[0].height +
+                        users[1].height +
+                        users[2].height +
+                        users[3].height +
+                        users[4].height +
+                        users[5].height +
+                        users[6].height +
+                        users[7].height +
+                        users[8].height +
+                        users[9].height;
 
         System.out.println("AllUserHeightInArray: " + heightPlusArray);
 
@@ -191,31 +197,84 @@ public class Main {
         Car car9 = new Car("Porsche", "911 Turbo S", "Black", 120000, 2017, 120, 1.5);
         Car car10 = new Car("Ford", "Focus", "Ivory", 14000, 2017, 400, 2.0);
 
-        double allEngines = car1.engine +
-                car2.engine +
-                car3.engine +
-                car4.engine +
-                car5.engine +
-                car6.engine +
-                car7.engine +
-                car8.engine +
-                car9.engine +
-                car10.engine;
+        double allEngines =
+                car1.engine +
+                        car2.engine +
+                        car3.engine +
+                        car4.engine +
+                        car5.engine +
+                        car6.engine +
+                        car7.engine +
+                        car8.engine +
+                        car9.engine +
+                        car10.engine;
         System.out.println("AllCarsEngines: " + allEngines);
 
-        double allPower = car1.power +
-                car2.power +
-                car3.power +
-                car4.power +
-                car5.power +
-                car6.power +
-                car7.power +
-                car8.power +
-                car9.power +
-                car10.power;
+        double allPower =
+                car1.power +
+                        car2.power +
+                        car3.power +
+                        car4.power +
+                        car5.power +
+                        car6.power +
+                        car7.power +
+                        car8.power +
+                        car9.power +
+                        car10.power;
         System.out.println("AllCarsPower: " + allPower);
 
+        Car[] cars = new Car[10];
+
+        cars[0] = new Car("Tesla", "Model S", "White", 80000, 2017, 700, 0);
+        cars[1] = new Car("Tesla", "Model 3", "Black", 40000, 2019, 600, 0);
+        cars[2] = new Car("Mercedes", "S34", "Purple", 100000, 2015, 550, 3.5);
+        cars[3] = new Car("Volvo", "Dolos", "Pink", 20000, 2013, 200, 2.2);
+        cars[4] = new Car("Peugeot", "Partner", "Orange", 15000, 2007, 150, 1.5);
+        cars[5] = new Car("Volkswagen", "Passat", "Yellow", 10000, 2005, 230, 1.0);
+        cars[6] = new Car("Lada", "Kalina", "Brown", 13000, 2017, 340, 3.3);
+        cars[7] = new Car("Range Rover", "Diablo", "Silver", 75000, 2017, 400, 6.0);
+        cars[8] = new Car("Porsche", "911 Turbo S", "Black", 120000, 2017, 120, 1.5);
+        cars[9] = new Car("Ford", "Focus", "Ivory", 14000, 2017, 400, 2.0);
+
+        double allEnginesArray =
+                cars[0].engine +
+                        cars[1].engine +
+                        cars[2].engine +
+                        cars[3].engine +
+                        cars[4].engine +
+                        cars[5].engine +
+                        cars[6].engine +
+                        cars[7].engine +
+                        cars[8].engine +
+                        cars[9].engine;
+        System.out.println("AllCarsEnginesArray: " + allEnginesArray);
+
+        double allPowerArray =
+                cars[0].power +
+                        cars[1].power +
+                        cars[2].power +
+                        cars[3].power +
+                        cars[4].power +
+                        cars[5].power +
+                        cars[6].power +
+                        cars[7].power +
+                        cars[8].power +
+                        cars[9].power;
+        System.out.println("AllCarsPowerArray: " + allPowerArray);
+
+
+//        7. За допомоги %, спробувати "реверснути" трьохзначне число. Приклад 412 => 214
+
+        int number = 421;
+        int reverse = 0;
+        while (number != 0) {
+            int memory = number % 10;
+            reverse = reverse * 10 + memory;
+            number = number / 10;
+        }
+        System.out.println("Reverse number: " + reverse);
 
     }
+
 
 }
