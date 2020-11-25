@@ -1,4 +1,14 @@
 public class User {
+
+//    3.Свторити клас User з полями
+//    int id,
+//    int age
+//    String name,
+//    String surname,
+//    double weight,
+//    double height.
+
+
     int id;
     int age;
     String name;

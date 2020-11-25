@@ -18,15 +18,17 @@ public class Main {
         int num9 = 339;
         int num10 = 476;
 
-// 2. Придумати речення з 10-12 слів. Кожне слово покласти в змінну. Вивести в консоль
-// ціле речення.
+
+//        2. Придумати речення з 10-12 слів. Кожне слово покласти в змінну. Вивести в консоль
+//        ціле речення.
+
         int plus = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10;
         System.out.println("PlusResult: " + plus);
         int minus = num1 - num2 - num3 - num4 - num5 - num6 - num7 - num8 - num9 - num10;
-        ;
+
         System.out.println("MinusResult: " + minus);
         int multiply = num1 * num2 * num3 * num4 * num5 * num6 * num7 * num8 * num9 * num10;
-        ;
+        
         System.out.println("MultiplyResult: " + multiply);
         int divide = num1 / num2;
         System.out.println("DivideResult: " + divide);
@@ -61,6 +63,9 @@ public class Main {
                         " " +
                         nineWord;
         System.out.println(sentence);
+
+
+
         User user1 = new User(1, 23, "Max", "Chaplyak", 55.5,173);
         User user2 = new User(2, 21, "Vova", "Petiv", 65.3,175);
         User user3 = new User(3, 30, "Oleh", "Katola", 76.2,180);
