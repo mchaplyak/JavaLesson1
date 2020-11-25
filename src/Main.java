@@ -265,7 +265,7 @@ public class Main {
 
 //        7. За допомоги %, спробувати "реверснути" трьохзначне число. Приклад 412 => 214
 
-        int number = 421;
+        int number = 412;
         int reverse = 0;
         while (number != 0) {
             int memory = number % 10;
