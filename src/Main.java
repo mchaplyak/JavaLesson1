@@ -28,7 +28,7 @@ public class Main {
 
         System.out.println("MinusResult: " + minus);
         int multiply = num1 * num2 * num3 * num4 * num5 * num6 * num7 * num8 * num9 * num10;
-        
+
         System.out.println("MultiplyResult: " + multiply);
         int divide = num1 / num2;
         System.out.println("DivideResult: " + divide);
@@ -64,6 +64,10 @@ public class Main {
                         nineWord;
         System.out.println(sentence);
 
+//        3. Створити 10 об'єктів класу User.
+//        Скласти між собою значення їх віку і вивести в консоль.
+//        Скласти між собою значення їх ваги і вивести в консоль.
+//        Скласти між собою значення їх зросту і вивести в консоль.
 
 
         User user1 = new User(1, 23, "Max", "Chaplyak", 55.5,173);
