@@ -17,9 +17,9 @@ public class Main {
         int num8 = 566;
         int num9 = 339;
         int num10 = 476;
-        
 
-
+// 2. Придумати речення з 10-12 слів. Кожне слово покласти в змінну. Вивести в консоль
+// ціле речення.
         int plus = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10;
         System.out.println("PlusResult: " + plus);
         int minus = num1 - num2 - num3 - num4 - num5 - num6 - num7 - num8 - num9 - num10;
