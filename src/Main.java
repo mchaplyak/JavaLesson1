@@ -117,7 +117,65 @@ public class Main {
                 user9.height +
                 user10.height;
         System.out.println("AllUserHeight: " + heightPlus);
-    }
 
+
+//        4. Зробити завдання 3, але 10 об'єктів покласти в один масив.
+//        Скласти між собою значення їх віку і вивести в консоль.
+//        Скласти між собою значення їх ваги і вивести в консоль.
+//        Скласти між собою значення їх зросту і вивести в консоль.
+
+        User[] users = new User[10];
+
+        users[0] = new User(1, 23, "Max", "Chaplyak", 55.5, 173);
+        users[1] = new User(2, 21, "Vova", "Petiv", 65.3, 175);
+        users[2] = new User(3, 30, "Oleh", "Katola", 76.2, 180);
+        users[3] = new User(4, 45, "Segiy", "Formus", 63.7, 172);
+        users[4] = new User(5, 18, "Vasyl", "Bobylyak", 74.1, 181);
+        users[5] = new User(6, 12, "Pedro", "Schepanyak", 44.4, 160);
+        users[6] = new User(7, 65, "Yura", "Bednar", 80.8, 185);
+        users[7] = new User(8, 34, "Bodya", "Steciv", 95.5, 195);
+        users[8] = new User(9, 26, "Nazar", "Beniv", 58.9, 170);
+        users[9] = new User(10, 33, "Andriy", "Geryliv", 59.9, 169);
+
+        int agePlusArray = users[0].age +
+                users[1].age +
+                users[2].age +
+                users[3].age +
+                users[4].age +
+                users[5].age +
+                users[6].age +
+                users[7].age +
+                users[8].age +
+                users[9].age;
+
+        System.out.println("AllUserAgeInArray: " + agePlusArray);
+
+        double weightPlusArray = users[0].weight +
+                users[1].weight +
+                users[2].weight +
+                users[3].weight +
+                users[4].weight +
+                users[5].weight +
+                users[6].weight +
+                users[7].weight +
+                users[8].weight +
+                users[9].weight;
+
+        System.out.println("AllUserWeightInArray: " + weightPlusArray);
+
+        double heightPlusArray = users[0].height +
+                users[1].height +
+                users[2].height +
+                users[3].height +
+                users[4].height +
+                users[5].height +
+                users[6].height +
+                users[7].height +
+                users[8].height +
+                users[9].height;
+
+        System.out.println("AllUserHeightInArray: " + heightPlusArray);
+
+    }
 
 }
