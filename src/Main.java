@@ -70,16 +70,16 @@ public class Main {
 //        Скласти між собою значення їх зросту і вивести в консоль.
 
 
-        User user1 = new User(1, 23, "Max", "Chaplyak", 55.5,173);
-        User user2 = new User(2, 21, "Vova", "Petiv", 65.3,175);
-        User user3 = new User(3, 30, "Oleh", "Katola", 76.2,180);
-        User user4 = new User(4, 45, "Segiy", "Formus", 63.7,172);
-        User user5 = new User(5, 18, "Vasyl", "Bobylyak", 74.1,181);
-        User user6 = new User(6, 12, "Pedro", "Schepanyak", 44.4,160);
-        User user7 = new User(7, 65, "Yura", "Bednar", 80.8,185);
-        User user8 = new User(8, 34, "Bodya", "Steciv", 95.5,195);
-        User user9 = new User(9, 26, "Nazar", "Beniv", 58.9,170);
-        User user10 = new User(10, 33, "Andriy", "Geryliv", 59.9,169);
+        User user1 = new User(1, 23, "Max", "Chaplyak", 55.5, 173);
+        User user2 = new User(2, 21, "Vova", "Petiv", 65.3, 175);
+        User user3 = new User(3, 30, "Oleh", "Katola", 76.2, 180);
+        User user4 = new User(4, 45, "Segiy", "Formus", 63.7, 172);
+        User user5 = new User(5, 18, "Vasyl", "Bobylyak", 74.1, 181);
+        User user6 = new User(6, 12, "Pedro", "Schepanyak", 44.4, 160);
+        User user7 = new User(7, 65, "Yura", "Bednar", 80.8, 185);
+        User user8 = new User(8, 34, "Bodya", "Steciv", 95.5, 195);
+        User user9 = new User(9, 26, "Nazar", "Beniv", 58.9, 170);
+        User user10 = new User(10, 33, "Andriy", "Geryliv", 59.9, 169);
 
         int agePlus = user1.age +
                 user2.age +
@@ -175,6 +175,46 @@ public class Main {
                 users[9].height;
 
         System.out.println("AllUserHeightInArray: " + heightPlusArray);
+
+//        5. Створити 10 об'єктів класу Car.
+//        Скласти між собою значення їх об'ємів і вивести в консоль.
+//        Скласти між собою значення їх потужностей і вивести в консоль.
+
+        Car car1 = new Car("Tesla", "Model S", "White", 80000, 2017, 700, 0);
+        Car car2 = new Car("Tesla", "Model 3", "Black", 40000, 2019, 600, 0);
+        Car car3 = new Car("Mercedes", "S34", "Purple", 100000, 2015, 550, 3.5);
+        Car car4 = new Car("Volvo", "Dolos", "Pink", 20000, 2013, 200, 2.2);
+        Car car5 = new Car("Peugeot", "Partner", "Orange", 15000, 2007, 150, 1.5);
+        Car car6 = new Car("Volkswagen", "Passat", "Yellow", 10000, 2005, 230, 1.0);
+        Car car7 = new Car("Lada", "Kalina", "Brown", 13000, 2017, 340, 3.3);
+        Car car8 = new Car("Range Rover", "Diablo", "Silver", 75000, 2017, 400, 6.0);
+        Car car9 = new Car("Porsche", "911 Turbo S", "Black", 120000, 2017, 120, 1.5);
+        Car car10 = new Car("Ford", "Focus", "Ivory", 14000, 2017, 400, 2.0);
+
+        double allEngines = car1.engine +
+                car2.engine +
+                car3.engine +
+                car4.engine +
+                car5.engine +
+                car6.engine +
+                car7.engine +
+                car8.engine +
+                car9.engine +
+                car10.engine;
+        System.out.println("AllCarsEngines: " + allEngines);
+
+        double allPower = car1.power +
+                car2.power +
+                car3.power +
+                car4.power +
+                car5.power +
+                car6.power +
+                car7.power +
+                car8.power +
+                car9.power +
+                car10.power;
+        System.out.println("AllCarsPower: " + allPower);
+
 
     }
 
